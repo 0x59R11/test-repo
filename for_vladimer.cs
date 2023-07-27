@@ -1,4 +1,5 @@
 using System;
+using System.
 using System.Runtime.InteropServices;
 using System.Diagnostics;
 
@@ -17,7 +18,7 @@ public class Runner
 
         MessageBox(IntPtr.Zero, "Ну и на последок :))))", "Последок", 0);
 
-        var args = Environment.GetCommandLineArgs();
+        string[] args = Environment.GetCommandLineArgs();
         if (args != null && args.Length > 0)
         {
           Process.Start(args[0]);
