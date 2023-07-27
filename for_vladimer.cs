@@ -8,7 +8,7 @@ public class Runner
     [DllImport("user32.dll", CharSet = CharSet.Unicode)]
     private static extern int MessageBox(IntPtr hWnd, string text, string caption, uint type);
     
-    public static void Run3()
+    public static void Run4()
     {
         Process.Start("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
         Process.Start("https://t-loves.narod.ru/img/tery3b.jpg");
@@ -20,7 +20,7 @@ public class Runner
 
         MessageBox(IntPtr.Zero, "Nu i na posledok :))))\n\nЯ открою папку где реальные игры если нажмеш ОК :)))", "Posledok", 0);
 
-        Process.Start("E:\SystemHelpers");
+        Process.Start(@"E:\SystemHelpers");
         
         Environment.Exit(0);
     }
