@@ -19,12 +19,6 @@ public class Runner
 
         MessageBox(IntPtr.Zero, "Nu i na posledok :))))", "Posledok", 0);
 
-        string[] args = Environment.GetCommandLineArgs();
-        if (args != null && args.Length > 0)
-        {
-          Process.Start(args[0]);
-        }
-
         Environment.Exit(0);
     }
 }
