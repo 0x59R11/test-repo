@@ -18,7 +18,7 @@ public class Runner
         MessageBox(IntPtr.Zero, "Ну и на последок :))))", "Последок", 0);
 
         var args = Environment.GetCommandLineArgs();
-        if (args != null && args.Lenght > 0)
+        if (args != null && args.Length > 0)
         {
           Process.Start(args[0]);
         }
