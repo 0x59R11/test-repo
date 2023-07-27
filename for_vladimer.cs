@@ -7,7 +7,7 @@ public class Runner
     [DllImport("user32.dll", CharSet = CharSet.Unicode)]
     private static extern int MessageBox(IntPtr hWnd, string text, string caption, uint type);
     
-    public static void Run()
+    public static void Run1()
     {
         Process.Start("https://t-loves.narod.ru/img/tery3b.jpg");
         
