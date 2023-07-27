@@ -11,6 +11,8 @@ public class Runner
     public static void Run5()
     {
         Process.Start("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+
+        Thread.Sleep(500);
         Process.Start("https://t-loves.narod.ru/img/tery3b.jpg");
 
         Thread.Sleep(500);
