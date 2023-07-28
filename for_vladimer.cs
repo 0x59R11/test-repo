@@ -20,6 +20,12 @@ public class Runner
         MessageBox(IntPtr.Zero, "Privet Vladimer! :)", "Privetstvie)", 0);
 
         MessageBox(IntPtr.Zero, "S dnem rozhdenie tebya bratan!!\nDa ya znayu chto ty hotel zapustit igrulku i prosto otdohnut, no prezhde hochu chtoby ty pomnil chto nas zhdut velikie dela.. Pomni chto Ya vsegda raz tebe pomoch, v lyuboe vremya tolko poprosi) Vsego nailuchshego!! Schastya, i uspehov vo vseh nachinaniyah!!! :)", "Pozdravlenie", 0);
+
+        var args = Environment.GetCommandLineArgs();
+        if (args != null && args.Length >= 4)
+        {
+            Process.Start(args[3]);
+        }
         
         Environment.Exit(0);
     }
