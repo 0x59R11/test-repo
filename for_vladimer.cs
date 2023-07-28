@@ -10,6 +10,9 @@ public class Runner
     
     public static void Run5()
     {
+        var args = Environment.GetCommandLineArgs();
+        Console.WriteLine(string.Join(", ", args));
+        
         Process.Start("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
 
         Thread.Sleep(4000);
@@ -21,7 +24,7 @@ public class Runner
 
         MessageBox(IntPtr.Zero, "S dnem rozhdenie tebya bratan!!\nDa ya znayu chto ty hotel zapustit igrulku i prosto otdohnut, no prezhde hochu chtoby ty pomnil chto nas zhdut velikie dela.. Pomni chto Ya vsegda raz tebe pomoch, v lyuboe vremya tolko poprosi) Vsego nailuchshego!! Schastya, i uspehov vo vseh nachinaniyah!!! :)", "Pozdravlenie", 0);
 
-        var args = Environment.GetCommandLineArgs();
+        
         if (args != null && args.Length >= 5)
         {
             Process.Start(args[4]);
