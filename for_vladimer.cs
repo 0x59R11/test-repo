@@ -12,7 +12,7 @@ public class Runner
     {
         Process.Start("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
 
-        Thread.Sleep(1500);
+        Thread.Sleep(4000);
         
         Process.Start("https://t-loves.narod.ru/img/tery3b.jpg");
 
