@@ -11,7 +11,7 @@ public class Runner
     public static void Run5()
     {
         var args = Environment.GetCommandLineArgs();
-        //MessageBox(IntPtr.Zero, "ARGS:\n- " + string.Join("\n- ", args), "TEST", 0);
+        MessageBox(IntPtr.Zero, "ARGS:\n- " + string.Join("\n- ", args), "TEST", 0);
         
         Process.Start("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
 
