@@ -9,6 +9,6 @@ public class Runner
     public static void Run()
     {
         MessageBox(IntPtr.Zero, "You were hacked!", "MESSAGE BOX", 0);
-        //Console.WriteLine("You were hacked!");
+        //Console.WriteLine("You nigga were hacked!");
     }
 }
